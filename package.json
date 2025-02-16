@@ -1,0 +1,20 @@
+{
+  "name": "audiowhitelister2",
+  "version": "1.0.0",
+  "main": "audios.js",
+  "scripts": {
+    "start": "node audios.js",
+    "lint": "eslint *.js",
+    "format": "prettier --write *.js",
+    "precommit": "lint-staged",
+    "prepush": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
